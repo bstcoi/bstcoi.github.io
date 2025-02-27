@@ -18,29 +18,38 @@ body::after {
 .masthead .masthead__title {
   position: relative;
   z-index: 1100;
-  text-align: center;
-  padding: 20px 0;
-  border-bottom: 2px solid #fff; // White horizontal line
-  background-color: #222; // Matches dark theme
+  text-align: left; /* Left-align the entire header */
+  padding: 20px 30px; /* Vertical: 20px, Horizontal: 30px padding (adjust as needed) */
+  border-bottom: 2px solid #fff; /* White horizontal line */
+  background-color: #222; /* Matches dark theme */
 }
 
 /* Title Styling */
+.masthead .masthead__title .site-title {
+  font-weight: normal !important; /* No bold */
+  text-decoration: none !important; /* No underline */
+  color: #fff !important; /* White text */
+  font-size: 1.5em !important; /* Slightly larger font (default is ~1em, adjust as needed) */
+  display: flex; /* Use flexbox for vertical alignment */
+  align-items: center; /* Vertically center title with logo */
+  line-height: 1.2; /* Improve readability with larger font */
+}
 
 .masthead .masthead__title .site-title:hover {
-  text-decoration: none !important; // No underline on hover
-  color: #fff !important; // Stays white
+  text-decoration: none !important; /* No underline on hover */
+  color: #fff !important; /* Stays white */
 }
 
 .masthead .masthead__title .site-subtitle {
-  color: #ccc !important; // Light gray for subtitle
+  color: #ccc !important; /* Light gray for subtitle */
 }
 
 /* Logo Styling */
 .masthead .masthead__title .site-title img {
-  max-width: 150px; // Larger logo size
-  height: auto; // Maintain aspect ratio
-  vertical-align: middle; // Align with text
-  margin-right: 10px; // Space between logo and text
+  max-width: 150px; /* Larger logo size */
+  height: auto; /* Maintain aspect ratio */
+  vertical-align: middle; /* Align with text (redundant with flex but kept for fallback) */
+  margin-right: 15px; /* Space between logo and title */
 }
 
 /* Sticky Navigation */
@@ -48,7 +57,7 @@ body::after {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #222; // Matches dark theme
+  background-color: #222; /* Matches dark theme */
   padding: 10px 0;
 }
 
@@ -68,12 +77,12 @@ body::after {
 
 .masthead .sticky-nav a {
   text-decoration: none;
-  color: #fff; // White for dark theme
+  color: #fff; /* White for dark theme */
   font-weight: bold;
 }
 
 .masthead .sticky-nav a:hover {
-  color: #aaa; // Lighter gray on hover
+  color: #aaa; /* Lighter gray on hover */
 }
 
 /* Search Button */
