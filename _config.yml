@@ -20,6 +20,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 # twitter_username: username
 # github_username: username
 minimal_mistakes_skin: dark
+# --- Start of Step 2 Addition ---
+sass:                    # Added: Tells Jekyll where to find Sass files
+  sass_dir: _sass        # Added: Default directory for Sass partials
+# --- End of Step 2 Addition ---
 search: false # disable site-wide search
 locale: "en-US"
 atom_feed:
@@ -110,6 +114,13 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # --- Start of Step 2 Addition ---
+  # _css
+  - scope:
+      path: "assets/css"    # Added: Targets CSS files in assets/css
+    values:
+      layout: compress     # Added: Compresses the output CSS
+  # --- End of Step 2 Addition ---
 
 category_archive:
   type: liquid

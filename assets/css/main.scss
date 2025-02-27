@@ -1,0 +1,64 @@
+@import "minimal-mistakes"; // Import default theme styles
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; // Optional separator
+}
+
+.masthead__title {
+  position: relative;
+  z-index: 1100;
+  text-align: center; // Centers logo and title
+  padding: 20px 0;
+}
+
+.masthead__menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.masthead__menu-item {
+  margin: 0 15px;
+}
+
+.masthead__menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.masthead__menu a:hover {
+  color: #0076df;
+}
+
+// Keep search button aligned
+.search__toggle {
+  margin-left: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .masthead__menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .masthead__menu-item {
+    margin: 0 10px;
+  }
+}
+
+// Ensure toggle is gone
+.greedy-nav__toggle {
+  display: none !important;
+}
