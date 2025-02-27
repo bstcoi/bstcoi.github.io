@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
-author_profile: true # false for disable author profile
+author_profile: false # true
 ---
 
 This message should appear on the home page of the website for testing.
