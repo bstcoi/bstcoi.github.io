@@ -7,7 +7,7 @@
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | absolute_url }}"><img src="/assets/images/logo.png" style="max-height: 20%; width: 20%; object-fit: contain;">
+        <a class="site-title" href="{{ '/' | absolute_url }}"><img src="/assets/images/logo.png" style="max-width: 18%; height: 18%; object-fit: contain;">
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
