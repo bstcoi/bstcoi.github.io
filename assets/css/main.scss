@@ -9,11 +9,19 @@
   border-bottom: 1px solid #ddd; // Optional separator
 }
 
+// .masthead__title {
+//   position: relative;
+//   z-index: 1100;
+//   text-align: center; // Centers logo and title
+//   padding: 20px 0;
+// }
+
 .masthead__title {
-  position: relative;
-  z-index: 1100;
-  text-align: center; // Centers logo and title
-  padding: 20px 0;
+    position: relative;
+    z-index: 1100;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #fff; // Adds a white horizontal line
 }
 
 .masthead__menu ul {
@@ -61,4 +69,20 @@
 // Ensure toggle is gone
 .greedy-nav__toggle {
   display: none !important;
+}
+
+// Title styling
+.site-title {
+    font-weight: normal; // Disables bold
+    text-decoration: none; // Removes underline
+    color: #fff; // Sets title color to white
+}
+
+.site-title:hover {
+    text-decoration: none; // Ensures no underline on hover
+    color: #fff; // Keeps white on hover
+}
+
+.site-subtitle {
+    color: #ccc; // Optional: Light gray for subtitle to complement white title
 }
