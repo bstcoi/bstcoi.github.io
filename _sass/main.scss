@@ -1,112 +1,44 @@
 ---
 ---
-
 @import "minimal-mistakes";
-@import "custom";
 
-/* Debugging: Ensure CSS is loading */
-body::after {
-  content: "Custom CSS Loaded"; // Remove this later
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  color: red;
-  z-index: 9999;
-}
-
-/* Header (Title/Logo) */
-.masthead .masthead__title {
-  position: relative;
-  z-index: 1100;
-  text-align: left; /* Left-align the entire header */
-  padding: 20px 30px; /* Vertical: 20px, Horizontal: 30px padding (adjust as needed) */
-  border-bottom: 2px solid #fff; /* White horizontal line */
-  background-color: #222; /* Matches dark theme */
-}
-
-/* Title Styling */
-.masthead .masthead__title .site-title {
-  font-weight: normal !important; /* No bold */
-  text-decoration: none !important; /* No underline */
-  color: #fff !important; /* White text */
-  font-size: 1.5em !important; /* Slightly larger font (default is ~1em, adjust as needed) */
-  display: flex; /* Use flexbox for vertical alignment */
-  align-items: center; /* Vertically center title with logo */
-  line-height: 1.2; /* Improve readability with larger font */
-}
-
-.masthead .masthead__title .site-title:hover {
-  text-decoration: none !important; /* No underline on hover */
-  color: #fff !important; /* Stays white */
-}
-
-.masthead .masthead__title .site-subtitle {
-  color: #ccc !important; /* Light gray for subtitle */
-}
-
-/* Logo Styling */
-.masthead .masthead__title .site-title img {
-  max-width: 150px; /* Larger logo size */
-  height: auto; /* Maintain aspect ratio */
-  vertical-align: middle; /* Align with text (redundant with flex but kept for fallback) */
-  margin-right: 15px; /* Space between logo and title */
-}
-
-/* Sticky Navigation */
-.masthead .sticky-nav {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: #222; /* Matches dark theme */
-  padding: 10px 0;
-}
-
-/* Nav Menu */
-.masthead .sticky-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.masthead .sticky-nav .masthead__menu-item {
-  margin: 0 15px;
-}
-
-.masthead .sticky-nav a {
-  text-decoration: none;
-  color: #fff; /* White for dark theme */
-  font-weight: bold;
-}
-
-.masthead .sticky-nav a:hover {
-  color: #aaa; /* Lighter gray on hover */
-}
-
-/* Search Button */
-.masthead .sticky-nav .search__toggle {
-  margin-left: 15px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #fff;
-}
-
-/* Mobile */
-@media (max-width: 600px) {
-  .masthead .sticky-nav ul {
+.masthead {
+  .masthead__title {
+    padding: 20px 50px; /* Increase padding for breathing room */
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    align-items: center; /* Vertically center logo and title */
+    background-color: #222;
   }
-  .masthead .sticky-nav .masthead__menu-item {
-    margin: 0 10px;
+
+  .site-logo img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px; /* Space between logo and title */
+  }
+
+  .site-title {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+  .masthead__divider {
+    border-bottom: 2px solid #fff; /* Horizontal line */
+    margin: 0 50px; /* Match padding for consistency */
+  }
+
+  .masthead__menu.sticky-nav {
+    position: sticky;
+    top: 0;
+    padding: 10px 50px; /* Add padding to nav */
+    background-color: #222;
+  }
+
+  .masthead__menu-item {
+    margin: 10px 0; /* Vertical spacing for menu items */
   }
 }
 
-/* Hide Toggle */
-.greedy-nav__toggle {
-  display: none !important;
+.page__content {
+  padding: 20px 50px; /* Add padding to main content */
 }

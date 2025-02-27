@@ -41,33 +41,22 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
 <header class="masthead">
-  <div class="masthead__title">
-    {% unless logo_path == empty %}
-      <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
-    {% endunless %}
-    <a class="site-title" href="{{ '/' | absolute_url }}" style="color: #fff; font-weight: normal; text-decoration: none;">
-        <img src="/assets/images/logo.png" style="width: 150px; height: auto; vertical-align: middle; margin-right: 10px;" alt="Logo">
+    <div class="masthead__title">
+      <a href="{{ '/' | absolute_url }}" class="site-logo">
+        <img src="/assets/images/logo.png" alt="Logo" style="max-width: 150px; height: auto;">
+      </a>
+      <a href="{{ '/' | absolute_url }}" class="site-title">
         {{ site.masthead_title | default: site.title }}
-    </a>
-    <hr style="border-top: 2px solid #fff; margin: 10px 0;">
-  </div>
-  <nav class="masthead__menu sticky-nav">
-    <ul>
-      {% for link in site.data.navigation.main %}
-        <li class="masthead__menu-item">
-          <a
-            href="{{ link.url | relative_url }}"
-            {% if link.description %} title="{{ link.description }}"{% endif %}
-            {% if link.target %} target="{{ link.target }}"{% endif %}
-          >{{ link.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-    {% if site.search == true %}
-      <button class="search__toggle" type="button">
-        <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-        <i class="fas fa-search"></i>
-      </button>
-    {% endif %}
-  </nav>
-</header>
+      </a>
+    </div>
+    <hr class="masthead__divider">
+    <nav class="masthead__menu sticky-nav">
+      <ul>
+        {% for link in site.data.navigation.main %}
+          <li class="masthead__menu-item">
+            <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
