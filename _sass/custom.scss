@@ -30,9 +30,9 @@ body::after {
 
 /* Title Styling */
 .masthead .masthead__title .site-title {
-  font-weight: normal !important;
-  text-decoration: none !important;
-  color: #fff !important;
+  font-weight: normal !important; // No bold
+  text-decoration: none !important; // No underline
+  color: #fff !important; // White text
 }
 
 .masthead .masthead__title .site-title:hover {

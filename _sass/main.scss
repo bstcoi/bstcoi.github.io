@@ -1,4 +1,8 @@
+---
+---
+
 @import "minimal-mistakes";
+@import "custom";
 
 /* Debugging: Ensure CSS is loading */
 body::after {
@@ -21,11 +25,6 @@ body::after {
 }
 
 /* Title Styling */
-.masthead .masthead__title .site-title {
-  font-weight: normal !important; // No bold
-  text-decoration: none !important; // No underline
-  color: #fff !important; // White text
-}
 
 .masthead .masthead__title .site-title:hover {
   text-decoration: none !important; // No underline on hover

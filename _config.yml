@@ -23,6 +23,7 @@ minimal_mistakes_skin: dark
 # --- Start of Step 2 Addition ---
 sass:                    # Added: Tells Jekyll where to find Sass files
   sass_dir: _sass        # Added: Default directory for Sass partials
+  style: compressed
 # --- End of Step 2 Addition ---
 search: false # disable site-wide search
 locale: "en-US"
