@@ -15,18 +15,20 @@ body {
     background-color: red !important; // Bright red background to confirm CSS is applied
 }
 
-.masthead__inner-wrap {
+.masthead .masthead__inner-wrap {
     // display: flex !important;
     // flex-direction: column !important;
     // align-items: center !important;
     display: block !important;
     width: 100% !important;
     clear: both !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .masthead {
     position: relative;
-    padding-bottom: 20px !important;
+    padding-bottom: 30px !important;
 }
 
 .greedy-nav {
@@ -35,7 +37,6 @@ body {
     // background-color: #fff;
     padding: 10px 0 !important;
     clear: both !important;
-
     overflow: visible !important;
 }
 
