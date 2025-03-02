@@ -112,3 +112,8 @@ tag_archive:
 
 # Outputting
 timezone: HK
+
+# sass
+sass:
+  sass_dir: assets/css
+  style: compressed

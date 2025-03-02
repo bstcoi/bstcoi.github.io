@@ -1,0 +1,39 @@
+@import "minimal-mistakes";
+
+// navigation bar positioning
+.site-nav {
+    position: relative; // static
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0; // vertical padding
+}
+
+// horizontal navigation bar display
+.site-nav .nav__list {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+}
+
+// hide hamburger menu
+.site-nav .menu-toggle {
+    display: none !important;
+}
+
+// style
+.site-nav .nav__list .nav__items {
+    margin: 0 15px;
+}
+
+// masthead flow
+.masthead {
+    position: relative;
+    padding-bottom: 10px; // space between title and nav
+}
+
+// prevent responsive collapse
+@media screen and (max-width: 1024px) {
+    .site-nav .nav__list {
+        display: flex !important; // keep visible
+    }
+}
