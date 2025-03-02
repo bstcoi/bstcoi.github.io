@@ -1,19 +1,4 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.site-nav {
-  position: relative !important;
-  width: 100% !important;
-  background-color: #fff !important;
-  padding: 10px 0 !important;
-}
-
-.site-nav .nav__list {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: center !important;
-}
-
-.site-nav .menu-toggle {
-  display: none !important;
-}
+$link-color: red;
