@@ -20,14 +20,14 @@ body {
     padding-bottom: 10px;
 }
 
-.site-nav {
+.greedy-nav {
     position: relative;
     width: 100%;
     background-color: #fff;
     padding: 10px 0;
 }
 
-.site-nav .visible-links {
+.greedy-nav .visible-links {
     display: flex !important;
     flex-direction: row !important;
     justify-content: center !important; // Center links (or change to flex-start)
@@ -35,16 +35,23 @@ body {
     padding: 0;
 }
 
-.site-nav .visible-links ul {
-    margin: 0 15px; // Space between links
+.greedy-nav .masthead__menu-item {
+    margin: 0 15px !important;
+    list-style: none !important;
 }
 
-.site-nav .greedy-nav__toggle {
+.greedy-nav__toggle {
     display: none !important;
 }
 
-// @media screen and (max-width: 1024px) {
-//     .site-nav .nav-list {
-//         display: flex !important;
-//     }
-// }
+@media screen and (max-width: 1024px) {
+    .greedy-nav .visible-links {
+        display: flex !important;
+    }
+    .greedy-nav__toggle {
+        display: none !important;
+    }
+    .hidden-links {
+        display: none !important;
+    }
+}
