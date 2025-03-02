@@ -20,12 +20,13 @@ body {
     // flex-direction: column !important;
     // align-items: center !important;
     display: block !important;
-    width: 100%;
+    width: 100% !important;
+    clear: both !important;
 }
 
 .masthead {
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
 }
 
 .greedy-nav {
@@ -34,6 +35,8 @@ body {
     // background-color: #fff;
     padding: 10px 0 !important;
     clear: both !important;
+
+    overflow: visible !important;
 }
 
 .greedy-nav .visible-links {
