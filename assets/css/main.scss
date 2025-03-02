@@ -10,6 +10,11 @@ $link-color: blue;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+// Test style
+body {
+    background-color: red !important; // Bright red background to confirm CSS is applied
+}
+
 .masthead {
     position: relative;
     padding-bottom: 10px;
