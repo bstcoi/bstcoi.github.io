@@ -40,9 +40,9 @@ body {
 }
 
 .greedy-nav {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px 0;
+    // display: flex;
+    // flex-wrap: wrap;
+    // padding: 10px 0;
     // position: relative !important;
     // width: 100% !important;
     // // background-color: #fff;
@@ -50,7 +50,12 @@ body {
     // clear: both !important;
     // display: block !important;
     // overflow: visible !important;
-    max-width: none !important;
+    // max-width: none !important;
+
+    width: 100% !important;
+    white-space: nowrap !important;
+    
+    padding: 10px 0 !important;
 }
 
 .greedy-nav .visible-links {
@@ -59,20 +64,22 @@ body {
     // justify-content: center !important; // Center links (or change to flex-start)
     // margin: 0 !important;
     // padding: 0 !important;
-    flex: 1 0 100%;
+    // flex: 1 0 100%;
     display: flex !important;
     flex-direction: row !important;
     justify-content: center;
-    margin-top: 10px;
+    // margin-top: 10px;
     // margin: 0 !important;
-    padding: 0 !important;
+    // padding: 0 !important;
     flex-wrap: nowrap !important;
-    width: 100% !important;
+    width: auto !important;
+    min-width: 100% !important;
 }
 
 .greedy-nav .masthead__menu-item {
+    flex: 0 1 auto !important;
     margin: 0 5px !important;
-    list-style: none !important;
+    // list-style: none !important;
 }
 
 .greedy-nav__toggle {
@@ -95,38 +102,23 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) { // Use 768px for mobile (adjust if needed)
-    .greedy-nav .visible-links {
-      display: flex !important;
-      flex-direction: row !important;
-      justify-content: center !important; // Or flex-start
-      width: 100% !important; // Ensure full width
-      font-size: 14px !important;
+// Adjust sizes for smaller screens
+@media screen and (max-width: 768px) {
+    .greedy-nav .masthead__menu-item a {
+        font-size: 14px !important;
+        padding: 0 10px !important;
     }
-    .greedy-nav__toggle {
-      display: none !important;
+}
+
+@media screen and (max-width: 480px) {
+    .greedy-nav .masthead__menu-item a {
+        font-size: 12px !important;
+        padding: 0 5px !important;
     }
-    .hidden-links {
-      display: none !important;
+    .site-logo img {
+        width: 30px !important; // Shrink logo
     }
-    .greedy-nav {
-      overflow: visible !important; // Ensure no overflow hides links
+    .site-title {
+        font-size: 16px !important; // Shrink title
     }
-  }
-  
-  @media screen and (max-width: 480px) { // For very small screens (e.g., narrow phones)
-    .greedy-nav .visible-links {
-      display: flex !important;
-      flex-direction: row !important;
-      justify-content: center !important; // Or flex-start
-      width: 100% !important;
-      font-size: 12px !important; // Optional: Reduce font size for mobile
-    }
-    .greedy-nav .masthead__menu-item {
-      margin: 0 3px !important; // Even tighter spacing on very small screens
-    }
-    .greedy-nav {
-        overflow: visible;
-        max-width: none;
-    }
-  }
+}
