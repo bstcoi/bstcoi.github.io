@@ -19,7 +19,7 @@ logo: "/assets/images/logo.png"
 
 # sass
 sass:
-  sass_dir: assets/css
+  sass_dir: _sass
   style: compressed
 
 # Build settings
