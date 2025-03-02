@@ -40,37 +40,38 @@ body {
 }
 
 .greedy-nav {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px 0;
-    // position: relative !important;
-    // width: 100% !important;
-    // // background-color: #fff;
-    // padding: 10px 0 !important;
-    // clear: both !important;
-    // display: block !important;
-    // visibility: visible !important;
+    // display: flex;
+    // flex-wrap: wrap;
+    // padding: 10px 0;
+    position: relative !important;
+    width: 100% !important;
+    // background-color: #fff;
+    padding: 10px 0 !important;
+    clear: both !important;
+    display: block !important;
+    overflow: visible !important;
     max-width: none !important;
 }
 
 .greedy-nav .visible-links {
-    // display: flex !important;
-    // flex-direction: row !important;
-    // justify-content: center !important; // Center links (or change to flex-start)
-    // margin: 0 !important;
-    // padding: 0 !important;
-    flex: 1 0 100%;
     display: flex !important;
     flex-direction: row !important;
-    justify-content: center;
-    // margin-top: 10px;
+    justify-content: center !important; // Center links (or change to flex-start)
     margin: 0 !important;
     padding: 0 !important;
+    // flex: 1 0 100%;
+    // display: flex !important;
+    // flex-direction: row !important;
+    // justify-content: center;
+    // margin-top: 10px;
+    // margin: 0 !important;
+    // padding: 0 !important;
     flex-wrap: nowrap !important;
+    width: 100% !important;
 }
 
 .greedy-nav .masthead__menu-item {
-    margin: 0 1px !important;
+    margin: 0 5px !important;
     list-style: none !important;
 }
 
@@ -100,6 +101,7 @@ body {
       flex-direction: row !important;
       justify-content: center !important; // Or flex-start
       width: 100% !important; // Ensure full width
+      font-size: 14px !important;
     }
     .greedy-nav__toggle {
       display: none !important;
@@ -118,9 +120,13 @@ body {
       flex-direction: row !important;
       justify-content: center !important; // Or flex-start
       width: 100% !important;
-      font-size: 14px !important; // Optional: Reduce font size for mobile
+      font-size: 12px !important; // Optional: Reduce font size for mobile
     }
     .greedy-nav .masthead__menu-item {
       margin: 0 3px !important; // Even tighter spacing on very small screens
+    }
+    .greedy-nav {
+        overflow: visible;
+        max-width: none;
     }
   }
