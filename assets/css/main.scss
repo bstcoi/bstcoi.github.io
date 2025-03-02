@@ -26,17 +26,12 @@ body {
 //     padding: 0 !important;
 // }
 
-#layout-default .masthead .masthead__innerwrap, 
-.layout--splash .masthead .masthead__innerwrap {
+.masthead .masthead__innerwrap {
     display: block !important;
     width: 100% !important;
     clear: both !important;
     margin: 0 !important;
     padding: 0 !important;
-    flex-direction: unset !important;
-    flex-wrap: unset !important;
-    align-items: unset !important;
-    justify-content: unset !important;
 }
 
 .masthead {
@@ -47,11 +42,12 @@ body {
 .greedy-nav {
     position: relative !important;
     width: 100% !important;
-    background-color: #fff;
+    // background-color: #fff;
     padding: 10px 0 !important;
     clear: both !important;
     overflow: visible !important;
     display: block !important;
+    visibility: visible !important;
 }
 
 .greedy-nav .visible-links {
