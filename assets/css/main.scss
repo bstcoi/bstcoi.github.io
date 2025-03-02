@@ -40,32 +40,32 @@ body {
 }
 
 .greedy-nav {
-    // display: flex;
-    // flex-wrap: wrap;
-    // padding: 10px 0;
-    position: relative !important;
-    width: 100% !important;
-    // background-color: #fff;
-    padding: 10px 0 !important;
-    clear: both !important;
-    display: block !important;
-    overflow: visible !important;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    // position: relative !important;
+    // width: 100% !important;
+    // // background-color: #fff;
+    // padding: 10px 0 !important;
+    // clear: both !important;
+    // display: block !important;
+    // overflow: visible !important;
     max-width: none !important;
 }
 
 .greedy-nav .visible-links {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important; // Center links (or change to flex-start)
-    margin: 0 !important;
-    padding: 0 !important;
-    // flex: 1 0 100%;
     // display: flex !important;
     // flex-direction: row !important;
-    // justify-content: center;
-    // margin-top: 10px;
+    // justify-content: center !important; // Center links (or change to flex-start)
     // margin: 0 !important;
     // padding: 0 !important;
+    flex: 1 0 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    margin-top: 10px;
+    // margin: 0 !important;
+    padding: 0 !important;
     flex-wrap: nowrap !important;
     width: 100% !important;
 }
