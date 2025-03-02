@@ -21,3 +21,25 @@ search: false
     background-color: #fff;
     padding: 10px 0;
 }
+
+.site-nav .nav-list {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important; // Center links (or change to flex-start)
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav .nav-list li {
+    margin: 0 15px; // Space between links
+}
+
+.site-nav .menu-toggle {
+    display: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .site-nav .nav-list {
+        display: flex !important;
+    }
+}
