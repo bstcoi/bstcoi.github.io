@@ -27,7 +27,7 @@ body {
     padding: 10px 0;
 }
 
-.site-nav .nav-list {
+.site-nav .visible-links {
     display: flex !important;
     flex-direction: row !important;
     justify-content: center !important; // Center links (or change to flex-start)
@@ -35,16 +35,16 @@ body {
     padding: 0;
 }
 
-.site-nav .nav-list li {
+.site-nav .visible-links ul {
     margin: 0 15px; // Space between links
 }
 
-.site-nav .menu-toggle {
+.site-nav .greedy-nav__toggle {
     display: none !important;
 }
 
-@media screen and (max-width: 1024px) {
-    .site-nav .nav-list {
-        display: flex !important;
-    }
-}
+// @media screen and (max-width: 1024px) {
+//     .site-nav .nav-list {
+//         display: flex !important;
+//     }
+// }
