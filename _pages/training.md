@@ -21,6 +21,12 @@ Graph (II) Lecture [Slides](/assets/files/g-ii.pdf) [Notes](/assets/files/g-ii-n
 
 ### Session 3
 
-Data Structure (I) Lecture [Slides](/assets/files/ds-i.pdf)
+Data Structure (I) Lecture [Slides](/assets/files/ds-i.pdf) [Notes](/assets/files/ds-i-notes.pdf)
+
+---
+
+### Session 4
+
+Dynamic Programming (I) Lecture [Slides](/assets/files/dp-i.pdf)
 
 ---
