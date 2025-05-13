@@ -6,15 +6,18 @@ layout: single
 author_profile: true # false
 ---
 
-This message should appear on the home page of the website for testing.
+> We are now recruiting new members! 
+> To register as a new member, please use your ***school email*** to fill out the Google Form:
+> [Click Me to fill in the Google Form!](https://forms.gle/fCzjbqYWKLveXWaf7)
 
-Here is a list.
-- **Graph Theory**
-- _Data Structure_
-- Dynamic Programming
+## Buddhist Sin Tak College Competitive Programming Team
 
-Here is an ordered list.
-1. Buddhist
-2. Sin
-3. Tak
-4. College
+The Buddhist Sin Tak College Competitive Programming Team was launched in 2024. The team will organize an annual inter-school programming competition (Buddhist Sin Tak College Computer Club Programming Contest; STPC) and offer training sessions to members. All members after training can participate in external competitive programming competitions, such as the HKOI (Hong Kong Olympiad in Informatics) and SDIC (Hong Kong Secondary Schools Software Development Invitational Contest).
+
+Latest News:
+
+Chan Yu Ham became the bronze medalist in HKOI 24/25, after approximately 2 months of training. Congratulations! 
+
+![2425-hkoi-award](/assets/files/gallery/2425hkoi.jpeg)
+
+The result of 1st STPC is announced. Please refer to the **Contest** panel. 
