@@ -41,44 +41,20 @@ Scoreboard:
 
 ### Materials
 
-Question Book: 
-
-[English Version](/assets/files/2425stpc/Question_Book.pdf)
+Question Book: [English Version](/assets/files/2425stpc/Question_Book.pdf)
 
 Editorial
 
-[A Score Calculation](/assets/files/2425stpc/STPC_A_Solution.pdf)
+[A Score Calculation](/assets/files/2425stpc/STPC_A_Solution.pdf) [B Inverted World](/assets/files/2425stpc/STPC_B_Solution.pdf) [C Prime Game](/assets/files/2425stpc/STPC_C_Solution.pdf) [D Moon](/assets/files/2425stpc/STPC_D_Solution.pdf) [E Allure](/assets/files/2425stpc/STPC_E_Solution.pdf)
 
-[B Inverted World](/assets/files/2425stpc/STPC_B_Solution.pdf)
-
-[C Prime Game](/assets/files/2425stpc/STPC_C_Solution.pdf)
-
-[D Moon](/assets/files/2425stpc/STPC_D_Solution.pdf)
-
-[E Allure](/assets/files/2425stpc/STPC_E_Solution.pdf)
-
-[F IF-ELSE Statement](/assets/files/2425stpc/STPC_F_Solution.pdf)
-
-[G Arithmetic Subsequence](/assets/files/2425stpc/STPC_G_Solution.pdf)
-
-[H k-nacci Number](/assets/files/2425stpc/STPC_H_Solution.pdf)
-
-[I Incantation](/assets/files/2425stpc/STPC_I_Solution.pdf)
-
-[J Decode](/assets/files/2425stpc/STPC_J_Solution.pdf)
+[F IF-ELSE Statement](/assets/files/2425stpc/STPC_F_Solution.pdf) [G Arithmetic Subsequence](/assets/files/2425stpc/STPC_G_Solution.pdf) [H k-nacci Number](/assets/files/2425stpc/STPC_H_Solution.pdf) [I Incantation](/assets/files/2425stpc/STPC_I_Solution.pdf) [J Decode](/assets/files/2425stpc/STPC_J_Solution.pdf)
 
 Gallery:
 
 ![](/assets/files/gallery/2425stpc/photo1.jpeg)
-
-![](/assets/files/gallery/2425stpc/photo2.jpeg)
-
+![](/assets/files/gallery/2425stpc/photo2.jpg)
 ![](/assets/files/gallery/2425stpc/photo3.jpeg)
-
 ![](/assets/files/gallery/2425stpc/photo4.jpeg)
-
 ![](/assets/files/gallery/2425stpc/photo5.jpeg)
-
-![](/assets/files/gallery/2425stpc/photo6.jpeg)
-
-![](/assets/files/gallery/2425stpc/photo7.jpeg)
+![](/assets/files/gallery/2425stpc/photo6.jpg)
+![](/assets/files/gallery/2425stpc/photo7.jpg)
