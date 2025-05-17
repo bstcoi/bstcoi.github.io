@@ -32,3 +32,17 @@ Data Structure (I) Lecture [Slides](/assets/files/2425training/ds-i.pdf) [Notes]
 Dynamic Programming (I) Lecture [Slides](/assets/files/2425training/dp-i.pdf)
 
 ---
+
+### Mid-Term Examination
+
+#### Junior
+
+Question Book [English Version](/assets/files/2425training/midterm/Junior_QuestionBook.pdf)
+
+Editorial [A Score Calculation II](/assets/files/2425training/midterm/A%20Score%20Calculation%20II.pdf) [B Decode II](/assets/files/2425training/midterm/B%20Decode%20II.pdf) [C Dynamic Walking](/assets/files/2425training/midterm/C%20Dynamic%20Walking.pdf) [D Run Lads Run](/assets/files/2425training/midterm/D%20Run%20Lads%20Run.pdf)
+
+#### Senior
+
+Question Book [English Version](/assets/files/2425training/midterm/Senior_QuestionBook.pdf)
+
+Editorial [A Decode III](/assets/files/2425training/midterm/A%20Decode%20III.pdf) [B Yet Another String Algorithm](/assets/files/2425training/midterm/B%20Yet%20Another%20String%20Algorithm.pdf) [C Number Snake](/assets/files/2425training/midterm/C%20Number%20Snake.pdf) [D Mayan Writing](/assets/files/2425training/midterm/D%20Mayan%20Writing.pdf)
