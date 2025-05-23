@@ -5,7 +5,7 @@ title: "Training"
 
 ## Summer Training
 
-24/25 Summer Schedule: [Click Me](/assets/files/2425training/Summer%20Schedule%20Full.pdf)\
+24/25 Summer Schedule: [Click Me](/assets/files/2425training/Summer%20Schedule%20Full.pdf)
 
 ### Mid-Term Examination
 
