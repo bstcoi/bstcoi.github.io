@@ -25,6 +25,10 @@ Editorial [A Decode III](/assets/files/2425training/midterm/A%20Decode%20III.pdf
 
 Dynamic Programming (I) [Slides](/assets/files/2425training/summer/dp-i.pdf) [Notes](/assets/files/2425training/summer/dp-i-notes.pdf)
 
+### Lecture 2
+
+Dynamic Programming (II) [Slides](/assets/files/2425training/summer/dp-ii.pdf) [Notes](/assets/files/2425training/summer/dp-ii-notes.pdf)
+
 ---
 
 ### Past Lectures
