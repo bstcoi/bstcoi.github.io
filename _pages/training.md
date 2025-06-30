@@ -29,6 +29,10 @@ Dynamic Programming (I) [Slides](/assets/files/2425training/summer/dp-i.pdf) [No
 
 Dynamic Programming (II) [Slides](/assets/files/2425training/summer/dp-ii.pdf) [Notes](/assets/files/2425training/summer/dp-ii-notes.pdf)
 
+### Lecture 3
+
+Data Structure (II) [Slides](/assets/files/2425training/summer/ds-ii.pdf) [Notes](/assets/files/2425training/summer/ds-ii-notes.pdf)
+
 ---
 
 ### Past Lectures
