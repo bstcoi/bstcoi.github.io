@@ -10,7 +10,11 @@ author_profile: true # false
 
 The Buddhist Sin Tak College Competitive Programming Team was launched in 2024. The team will organize an annual inter-school programming competition (Buddhist Sin Tak College Computer Club Programming Contest; STPC) and offer training sessions to members. All members after training can participate in external competitive programming competitions, such as the HKOI (Hong Kong Olympiad in Informatics) and SDIC (Hong Kong Secondary Schools Software Development Invitational Contest).
 
-Latest News:
+**Latest News**:
+
+Four of our members (Chan Cheuk Wing, Chan Tsz Hang, Chan Yu Ham, Ho Yu Yam) has participated in the Hong Kong Secondary School Coding Challenge 2025. Chan Tsz Hang and Chan Yu Ham has won the Bronze medal. Congratulations!
+
+![2425-hksc-award](/assets/files/gallery/hksc2425.jpg)
 
 Chan Yu Ham became the bronze medalist in HKOI 24/25, after approximately 2 months of training. Congratulations! 
 
