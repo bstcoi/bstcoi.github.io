@@ -15,13 +15,20 @@ The Buddhist Sin Tak College Competitive Programming Team was launched in 2024. 
 
 Chan Cheuk Wing
 
-Chan Wing Ting
-
 Chan Tsz Hang
+
+Chan Wing Ting
 
 Chan Yu Ham
 
 Cheung Yau Tin
 
+Ho Yu Yam
+
+Ng Chun Lung
+
 Lam, Pak Kiu Sean
 
+Lee Tsz Yat
+
+Wong Shun Ching
