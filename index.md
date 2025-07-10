@@ -12,7 +12,7 @@ The Buddhist Sin Tak College Competitive Programming Team was launched in 2024. 
 
 **Latest News**:
 
-Four of our members (Chan Cheuk Wing, Chan Tsz Hang, Chan Yu Ham, Ho Yu Yam) has participated in the Hong Kong Secondary School Coding Challenge 2025. Chan Tsz Hang and Chan Yu Ham has won the Bronze medal. Congratulations!
+Four of our members (Chan Cheuk Wing, Chan Tsz Hang, Chan Yu Ham, Ho Yu Yam) has participated in the Hong Kong Secondary School Coding Challenge 2025. Chan Tsz Hang and Chan Yu Ham have won the Bronze medal. Congratulations!
 
 ![2425-hksc-award](/assets/files/gallery/hksc2425.jpg)
 
