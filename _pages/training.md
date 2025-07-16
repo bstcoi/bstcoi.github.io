@@ -7,7 +7,7 @@ title: "Training"
 
 24/25 Summer Schedule: [Click Me](/assets/files/2425training/Summer%20Schedule%20Full.pdf)
 
-### Mid-Term Examination
+### Session 1 & 2 (Mid-Term Examination)
 
 #### Junior
 
@@ -21,17 +21,21 @@ Question Book [English Version](/assets/files/2425training/midterm/Senior_Questi
 
 Editorial [A Decode III](/assets/files/2425training/midterm/A%20Decode%20III.pdf) [B Yet Another String Algorithm](/assets/files/2425training/midterm/B%20Yet%20Another%20String%20Algorithm.pdf) [C Number Snake](/assets/files/2425training/midterm/C%20Number%20Snake.pdf) [D Mayan Writing](/assets/files/2425training/midterm/D%20Mayan%20Writing.pdf)
 
-### Lecture 1
+### Session 3
 
 Dynamic Programming (I) [Slides](/assets/files/2425training/summer/dp-i.pdf) [Notes](/assets/files/2425training/summer/dp-i-notes.pdf)
 
-### Lecture 2
+### Session 4
 
 Dynamic Programming (II) [Slides](/assets/files/2425training/summer/dp-ii.pdf) [Notes](/assets/files/2425training/summer/dp-ii-notes.pdf)
 
-### Lecture 3
+### Session 5
 
 Data Structure (II) [Slides](/assets/files/2425training/summer/ds-ii.pdf) [Notes](/assets/files/2425training/summer/ds-ii-notes.pdf)
+
+### Session 6A (Team Mini Competition I)
+
+[Question Book](/assets/files/2425training/teami/QuestionBook.pdf) [Editorial](/assets/files/2425training/teami/editorial.pdf)
 
 ---
 
