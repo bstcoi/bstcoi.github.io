@@ -33,9 +33,13 @@ Dynamic Programming (II) [Slides](/assets/files/2425training/summer/dp-ii.pdf) [
 
 Data Structure (II) [Slides](/assets/files/2425training/summer/ds-ii.pdf) [Notes](/assets/files/2425training/summer/ds-ii-notes.pdf)
 
-### Session 6A (Team Mini Competition I)
+### Session 6 (Team Mini Competition I)
 
 [Question Book](/assets/files/2425training/teami/QuestionBook.pdf) [Editorial](/assets/files/2425training/teami/editorial.pdf)
+
+### Session 7
+
+Graph (III) [Slides](/assets/files/2425training/g-iii.pdf)
 
 ---
 
