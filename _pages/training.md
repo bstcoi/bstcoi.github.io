@@ -41,6 +41,10 @@ Data Structure (II) [Slides](/assets/files/2425training/summer/ds-ii.pdf) [Notes
 
 Graph (III) [Slides](/assets/files/2425training/g-iii.pdf)
 
+### Session 8
+
+Data Structure (III) [Slides](/assets/files/2425training/summer/ds-iii.pdf) [Notes](/assets/files/2425training/summer/ds-iii-notes.pdf)
+
 ---
 
 ### Past Lectures
