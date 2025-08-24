@@ -12,6 +12,14 @@ The Buddhist Sin Tak College Competitive Programming Team was launched in 2024. 
 
 **Latest News**:
 
+Six of our members (in two teams) has participated in the 2025 La Salle - Pui Ching Programming Challege. One of our teams (Member: Chan Tsz Hang, Lee Tsz Yat, Chan Yu Ham) has won the Bronze medal. Congratulations!
+
+![25lscct](/assets/files/gallery/25lscct/25lscct1.jpg)
+![25lscct](/assets/files/gallery/25lscct/25lscct2.jpg)
+![25lscct](/assets/files/gallery/25lscct/25lscct3.jpg)
+![25lscct](/assets/files/gallery/25lscct/25lscct4.jpg)
+![25lscct](/assets/files/gallery/25lscct/25lscct5.jpg)
+
 Four of our members (Chan Cheuk Wing, Chan Tsz Hang, Chan Yu Ham, Ho Yu Yam) has participated in the Hong Kong Secondary School Coding Challenge 2025. Chan Tsz Hang and Chan Yu Ham have won the Bronze medal. Congratulations!
 
 ![2425-hksc-award](/assets/files/gallery/hksc2425.jpg)
