@@ -7,9 +7,9 @@ The Buddhist Sin Tak College Competitive Programming Team was launched in 2024. 
 
 ## Executive Committee
 
-**Advisor**: Mr. W. I. Hui
+**Advisor**: Mr. H. M. Tsang
 
-**Trainer**: Luo Tsz Fung, Chin Ka Wang, Chan Sing Yu
+**Trainer**: Luo Tsz Fung, Chin Ka Wang
 
 **Trainee**: (in lexicographic order)
 
@@ -22,8 +22,6 @@ Chan Wing Ting
 Chan Yu Ham
 
 Cheung Yau Tin
-
-Ho Yu Yam
 
 Ng Chun Lung
 

@@ -3,6 +3,14 @@ permalink: /contest/
 title: "Contest"
 ---
 
+The 2nd Buddhist Sin Tak College Computer Club Programming Contest (STPC) is open for registration!
+
+Details: [Click Me](https://docs.google.com/document/d/1M_NO_FWUxfey0njBnuHPQZHZ_kj9sxJGVmrsa6LvooI/edit?usp=sharing)
+
+Registration: [Click Me](https://forms.gle/VjCdTE7TjgwUYCMy8) or fill in the registration form outside Room 501.
+
+---
+
 The 1st Buddhist Sin Tak College Computer Club Programming Contest (STPC) is held successfully!
 
 Scoreboard:
